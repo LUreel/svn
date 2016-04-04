@@ -17,6 +17,7 @@ public class main {
 
 // TODO code application logic here 
         System.out.println("Hola món modificant per Cristian");
+           System.out.println("Aixo es mentida, modificat per l'Uree");
         System.out.println("versió 0.2 del projecte prjava00");
         try {
             InetAddress addr = InetAddress.getLocalHost();
