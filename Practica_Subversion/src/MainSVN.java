@@ -23,6 +23,7 @@ public class MainSVN {
         for (int i = 0; i <10; i++) {
             if(a[i]<min)min=a[i];
         }
+	//Comentari Projecte 1
         System.out.println(min);
     }
 }
