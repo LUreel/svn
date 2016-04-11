@@ -19,6 +19,7 @@ public class MainSVN {
             System.out.println("Introdueix un valor:");
             a[i] = sc.nextInt();
         }
+	//Nou comentari en el projecte 1
         int min = a[1];
         for (int i = 0; i <10; i++) {
             if(a[i]<min)min=a[i];
