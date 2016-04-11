@@ -13,13 +13,15 @@ import java.util.Scanner;
  */
 public class MainSVN {
     public static void main(String[] args) {
+	//Comentari en la carpeta projecte2
+		
         Scanner sc = new Scanner(System.in);
         int a[] = new int[10];
         for(int i = 0;i<10;i++){
             System.out.println("Introdueix un valor:");
             a[i] = sc.nextInt();
         }
-	//Nou comentari en el projecte 1
+	//nou comentari en el projecte2
         int min = a[1];
         for (int i = 0; i <10; i++) {
             if(a[i]<min)min=a[i];
