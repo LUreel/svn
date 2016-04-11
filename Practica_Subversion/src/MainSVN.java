@@ -14,13 +14,13 @@ import java.util.Scanner;
 public class MainSVN {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a[] = new int[5];
-        for(int i = 0;i<5;i++){
+        int a[] = new int[10];
+        for(int i = 0;i<10;i++){
             System.out.println("Introdueix un valor:");
             a[i] = sc.nextInt();
         }
         int min = a[1];
-        for (int i = 0; i <5; i++) {
+        for (int i = 0; i <10; i++) {
             if(a[i]<min)min=a[i];
         }
         System.out.println(min);
